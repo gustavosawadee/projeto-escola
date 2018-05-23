@@ -28,23 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridViewDisciplinas = new System.Windows.Forms.DataGridView();
-            this.btnNovoR = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
-            this.btnAlterar = new System.Windows.Forms.Button();
-            this.btnExcluir = new System.Windows.Forms.Button();
-            this.btnIncluir = new System.Windows.Forms.Button();
+            this.dataGridViewAlunos = new System.Windows.Forms.DataGridView();
+            this.btnLimparCampoAluno = new System.Windows.Forms.Button();
+            this.btnAlterarAluno = new System.Windows.Forms.Button();
+            this.btnExcluirAluno = new System.Windows.Forms.Button();
+            this.btnIncluirAluno = new System.Windows.Forms.Button();
             this.gpbNav = new System.Windows.Forms.GroupBox();
-            this.btnUltimo = new System.Windows.Forms.Button();
-            this.btnAnterior = new System.Windows.Forms.Button();
-            this.btnProximo = new System.Windows.Forms.Button();
-            this.btnPrimeiro = new System.Windows.Forms.Button();
-            this.txbNome = new System.Windows.Forms.TextBox();
-            this.lblCodDisciplina = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txbNomeAluno = new System.Windows.Forms.TextBox();
+            this.lblCodAlunos = new System.Windows.Forms.Label();
             this.lblCadSigla = new System.Windows.Forms.Label();
             this.lblCadNome = new System.Windows.Forms.Label();
             this.lblCadMatricula = new System.Windows.Forms.Label();
-            this.maskNasc = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,78 +52,71 @@
             this.label7 = new System.Windows.Forms.Label();
             this.txbEndereco = new System.Windows.Forms.TextBox();
             this.txbNumero = new System.Windows.Forms.TextBox();
-            this.txtBairro = new System.Windows.Forms.TextBox();
+            this.txbBairro = new System.Windows.Forms.TextBox();
             this.txbCidade = new System.Windows.Forms.TextBox();
-            this.txbCep = new System.Windows.Forms.TextBox();
-            this.txbRg = new System.Windows.Forms.TextBox();
+            this.txbCEP = new System.Windows.Forms.TextBox();
+            this.txbRG = new System.Windows.Forms.TextBox();
             this.txbTelefone = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDisciplinas)).BeginInit();
+            this.txbNasc = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAlunos)).BeginInit();
             this.gpbNav.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridViewDisciplinas
+            // dataGridViewAlunos
             // 
-            this.dataGridViewDisciplinas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewDisciplinas.Location = new System.Drawing.Point(29, 386);
-            this.dataGridViewDisciplinas.Name = "dataGridViewDisciplinas";
-            this.dataGridViewDisciplinas.Size = new System.Drawing.Size(613, 200);
-            this.dataGridViewDisciplinas.TabIndex = 27;
+            this.dataGridViewAlunos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewAlunos.Location = new System.Drawing.Point(29, 386);
+            this.dataGridViewAlunos.Name = "dataGridViewAlunos";
+            this.dataGridViewAlunos.Size = new System.Drawing.Size(613, 200);
+            this.dataGridViewAlunos.TabIndex = 27;
+            this.dataGridViewAlunos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAlunos_CellContentClick);
             // 
-            // btnNovoR
+            // btnLimparCampoAluno
             // 
-            this.btnNovoR.Location = new System.Drawing.Point(535, 148);
-            this.btnNovoR.Name = "btnNovoR";
-            this.btnNovoR.Size = new System.Drawing.Size(98, 23);
-            this.btnNovoR.TabIndex = 22;
-            this.btnNovoR.Text = "Novo Registro";
-            this.btnNovoR.UseVisualStyleBackColor = true;
+            this.btnLimparCampoAluno.Location = new System.Drawing.Point(487, 134);
+            this.btnLimparCampoAluno.Name = "btnLimparCampoAluno";
+            this.btnLimparCampoAluno.Size = new System.Drawing.Size(75, 23);
+            this.btnLimparCampoAluno.TabIndex = 23;
+            this.btnLimparCampoAluno.Text = "Limpar";
+            this.btnLimparCampoAluno.UseVisualStyleBackColor = true;
+            this.btnLimparCampoAluno.Click += new System.EventHandler(this.btnLimparCampoAluno_Click);
             // 
-            // btnLimpar
+            // btnAlterarAluno
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(433, 148);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(75, 23);
-            this.btnLimpar.TabIndex = 23;
-            this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            this.btnAlterarAluno.Location = new System.Drawing.Point(487, 105);
+            this.btnAlterarAluno.Name = "btnAlterarAluno";
+            this.btnAlterarAluno.Size = new System.Drawing.Size(75, 23);
+            this.btnAlterarAluno.TabIndex = 24;
+            this.btnAlterarAluno.Text = "Alterar";
+            this.btnAlterarAluno.UseVisualStyleBackColor = true;
+            this.btnAlterarAluno.Click += new System.EventHandler(this.btnAlterarAluno_Click);
             // 
-            // btnAlterar
+            // btnExcluirAluno
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(487, 105);
-            this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(75, 23);
-            this.btnAlterar.TabIndex = 24;
-            this.btnAlterar.Text = "Alterar";
-            this.btnAlterar.UseVisualStyleBackColor = true;
-            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
+            this.btnExcluirAluno.Location = new System.Drawing.Point(487, 73);
+            this.btnExcluirAluno.Name = "btnExcluirAluno";
+            this.btnExcluirAluno.Size = new System.Drawing.Size(75, 23);
+            this.btnExcluirAluno.TabIndex = 25;
+            this.btnExcluirAluno.Text = "Excluir";
+            this.btnExcluirAluno.UseVisualStyleBackColor = true;
+            this.btnExcluirAluno.Click += new System.EventHandler(this.btnExcluirAluno_Click);
             // 
-            // btnExcluir
+            // btnIncluirAluno
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(487, 73);
-            this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(75, 23);
-            this.btnExcluir.TabIndex = 25;
-            this.btnExcluir.Text = "Excluir";
-            this.btnExcluir.UseVisualStyleBackColor = true;
-            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
-            // 
-            // btnIncluir
-            // 
-            this.btnIncluir.Location = new System.Drawing.Point(487, 40);
-            this.btnIncluir.Name = "btnIncluir";
-            this.btnIncluir.Size = new System.Drawing.Size(75, 23);
-            this.btnIncluir.TabIndex = 26;
-            this.btnIncluir.Text = "Incluir";
-            this.btnIncluir.UseVisualStyleBackColor = true;
-            this.btnIncluir.Click += new System.EventHandler(this.btnIncluir_Click);
+            this.btnIncluirAluno.Location = new System.Drawing.Point(487, 40);
+            this.btnIncluirAluno.Name = "btnIncluirAluno";
+            this.btnIncluirAluno.Size = new System.Drawing.Size(75, 23);
+            this.btnIncluirAluno.TabIndex = 26;
+            this.btnIncluirAluno.Text = "Incluir";
+            this.btnIncluirAluno.UseVisualStyleBackColor = true;
+            this.btnIncluirAluno.Click += new System.EventHandler(this.btnIncluirAluno_Click);
             // 
             // gpbNav
             // 
-            this.gpbNav.Controls.Add(this.btnUltimo);
-            this.gpbNav.Controls.Add(this.btnAnterior);
-            this.gpbNav.Controls.Add(this.btnProximo);
-            this.gpbNav.Controls.Add(this.btnPrimeiro);
+            this.gpbNav.Controls.Add(this.button4);
+            this.gpbNav.Controls.Add(this.button3);
+            this.gpbNav.Controls.Add(this.button2);
+            this.gpbNav.Controls.Add(this.button1);
             this.gpbNav.Location = new System.Drawing.Point(29, 298);
             this.gpbNav.Name = "gpbNav";
             this.gpbNav.Size = new System.Drawing.Size(337, 68);
@@ -133,57 +124,57 @@
             this.gpbNav.TabStop = false;
             this.gpbNav.Text = "Navegação";
             // 
-            // btnUltimo
+            // button4
             // 
-            this.btnUltimo.Location = new System.Drawing.Point(248, 32);
-            this.btnUltimo.Name = "btnUltimo";
-            this.btnUltimo.Size = new System.Drawing.Size(75, 23);
-            this.btnUltimo.TabIndex = 6;
-            this.btnUltimo.Text = "Último";
-            this.btnUltimo.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(248, 32);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "Último";
+            this.button4.UseVisualStyleBackColor = true;
             // 
-            // btnAnterior
+            // button3
             // 
-            this.btnAnterior.Location = new System.Drawing.Point(167, 32);
-            this.btnAnterior.Name = "btnAnterior";
-            this.btnAnterior.Size = new System.Drawing.Size(75, 23);
-            this.btnAnterior.TabIndex = 4;
-            this.btnAnterior.Text = "Anterior";
-            this.btnAnterior.UseVisualStyleBackColor = true;
+            this.button3.Location = new System.Drawing.Point(167, 32);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "Anterior";
+            this.button3.UseVisualStyleBackColor = true;
             // 
-            // btnProximo
+            // button2
             // 
-            this.btnProximo.Location = new System.Drawing.Point(86, 32);
-            this.btnProximo.Name = "btnProximo";
-            this.btnProximo.Size = new System.Drawing.Size(75, 23);
-            this.btnProximo.TabIndex = 2;
-            this.btnProximo.Text = "Próximo";
-            this.btnProximo.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(86, 32);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Próximo";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // btnPrimeiro
+            // button1
             // 
-            this.btnPrimeiro.Location = new System.Drawing.Point(6, 32);
-            this.btnPrimeiro.Name = "btnPrimeiro";
-            this.btnPrimeiro.Size = new System.Drawing.Size(75, 23);
-            this.btnPrimeiro.TabIndex = 0;
-            this.btnPrimeiro.Text = "Primeiro";
-            this.btnPrimeiro.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(6, 32);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Primeiro";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // txbNome
+            // txbNomeAluno
             // 
-            this.txbNome.Location = new System.Drawing.Point(88, 51);
-            this.txbNome.Name = "txbNome";
-            this.txbNome.Size = new System.Drawing.Size(100, 20);
-            this.txbNome.TabIndex = 19;
+            this.txbNomeAluno.Location = new System.Drawing.Point(88, 51);
+            this.txbNomeAluno.Name = "txbNomeAluno";
+            this.txbNomeAluno.Size = new System.Drawing.Size(100, 20);
+            this.txbNomeAluno.TabIndex = 19;
             // 
-            // lblCodDisciplina
+            // lblCodAlunos
             // 
-            this.lblCodDisciplina.AutoSize = true;
-            this.lblCodDisciplina.Location = new System.Drawing.Point(85, 26);
-            this.lblCodDisciplina.Name = "lblCodDisciplina";
-            this.lblCodDisciplina.Size = new System.Drawing.Size(13, 13);
-            this.lblCodDisciplina.TabIndex = 18;
-            this.lblCodDisciplina.Text = "1";
+            this.lblCodAlunos.AutoSize = true;
+            this.lblCodAlunos.Location = new System.Drawing.Point(85, 26);
+            this.lblCodAlunos.Name = "lblCodAlunos";
+            this.lblCodAlunos.Size = new System.Drawing.Size(13, 13);
+            this.lblCodAlunos.TabIndex = 18;
+            this.lblCodAlunos.Text = "1";
             // 
             // lblCadSigla
             // 
@@ -211,14 +202,6 @@
             this.lblCadMatricula.Size = new System.Drawing.Size(53, 13);
             this.lblCadMatricula.TabIndex = 14;
             this.lblCadMatricula.Text = "Matricula:";
-            // 
-            // maskNasc
-            // 
-            this.maskNasc.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.maskNasc.Location = new System.Drawing.Point(88, 77);
-            this.maskNasc.Name = "maskNasc";
-            this.maskNasc.Size = new System.Drawing.Size(100, 20);
-            this.maskNasc.TabIndex = 28;
             // 
             // label1
             // 
@@ -297,12 +280,12 @@
             this.txbNumero.Size = new System.Drawing.Size(100, 20);
             this.txbNumero.TabIndex = 37;
             // 
-            // txtBairro
+            // txbBairro
             // 
-            this.txtBairro.Location = new System.Drawing.Point(88, 151);
-            this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(100, 20);
-            this.txtBairro.TabIndex = 38;
+            this.txbBairro.Location = new System.Drawing.Point(88, 151);
+            this.txbBairro.Name = "txbBairro";
+            this.txbBairro.Size = new System.Drawing.Size(100, 20);
+            this.txbBairro.TabIndex = 38;
             // 
             // txbCidade
             // 
@@ -311,19 +294,19 @@
             this.txbCidade.Size = new System.Drawing.Size(100, 20);
             this.txbCidade.TabIndex = 39;
             // 
-            // txbCep
+            // txbCEP
             // 
-            this.txbCep.Location = new System.Drawing.Point(88, 205);
-            this.txbCep.Name = "txbCep";
-            this.txbCep.Size = new System.Drawing.Size(100, 20);
-            this.txbCep.TabIndex = 40;
+            this.txbCEP.Location = new System.Drawing.Point(88, 205);
+            this.txbCEP.Name = "txbCEP";
+            this.txbCEP.Size = new System.Drawing.Size(100, 20);
+            this.txbCEP.TabIndex = 40;
             // 
-            // txbRg
+            // txbRG
             // 
-            this.txbRg.Location = new System.Drawing.Point(88, 232);
-            this.txbRg.Name = "txbRg";
-            this.txbRg.Size = new System.Drawing.Size(100, 20);
-            this.txbRg.TabIndex = 41;
+            this.txbRG.Location = new System.Drawing.Point(88, 232);
+            this.txbRG.Name = "txbRG";
+            this.txbRG.Size = new System.Drawing.Size(100, 20);
+            this.txbRG.TabIndex = 41;
             // 
             // txbTelefone
             // 
@@ -332,16 +315,24 @@
             this.txbTelefone.Size = new System.Drawing.Size(100, 20);
             this.txbTelefone.TabIndex = 42;
             // 
+            // txbNasc
+            // 
+            this.txbNasc.Location = new System.Drawing.Point(90, 80);
+            this.txbNasc.Name = "txbNasc";
+            this.txbNasc.Size = new System.Drawing.Size(100, 20);
+            this.txbNasc.TabIndex = 43;
+            // 
             // frmCadAlunos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(667, 598);
+            this.Controls.Add(this.txbNasc);
             this.Controls.Add(this.txbTelefone);
-            this.Controls.Add(this.txbRg);
-            this.Controls.Add(this.txbCep);
+            this.Controls.Add(this.txbRG);
+            this.Controls.Add(this.txbCEP);
             this.Controls.Add(this.txbCidade);
-            this.Controls.Add(this.txtBairro);
+            this.Controls.Add(this.txbBairro);
             this.Controls.Add(this.txbNumero);
             this.Controls.Add(this.txbEndereco);
             this.Controls.Add(this.label7);
@@ -351,23 +342,21 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.maskNasc);
-            this.Controls.Add(this.dataGridViewDisciplinas);
-            this.Controls.Add(this.btnNovoR);
-            this.Controls.Add(this.btnLimpar);
-            this.Controls.Add(this.btnAlterar);
-            this.Controls.Add(this.btnExcluir);
-            this.Controls.Add(this.btnIncluir);
+            this.Controls.Add(this.dataGridViewAlunos);
+            this.Controls.Add(this.btnLimparCampoAluno);
+            this.Controls.Add(this.btnAlterarAluno);
+            this.Controls.Add(this.btnExcluirAluno);
+            this.Controls.Add(this.btnIncluirAluno);
             this.Controls.Add(this.gpbNav);
-            this.Controls.Add(this.txbNome);
-            this.Controls.Add(this.lblCodDisciplina);
+            this.Controls.Add(this.txbNomeAluno);
+            this.Controls.Add(this.lblCodAlunos);
             this.Controls.Add(this.lblCadSigla);
             this.Controls.Add(this.lblCadNome);
             this.Controls.Add(this.lblCadMatricula);
             this.Name = "frmCadAlunos";
             this.Text = "Cadastro Alunos";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmCadAlunos_FormClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDisciplinas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAlunos)).EndInit();
             this.gpbNav.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -376,23 +365,21 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridViewDisciplinas;
-        private System.Windows.Forms.Button btnNovoR;
-        private System.Windows.Forms.Button btnLimpar;
-        private System.Windows.Forms.Button btnAlterar;
-        private System.Windows.Forms.Button btnExcluir;
-        private System.Windows.Forms.Button btnIncluir;
+        private System.Windows.Forms.DataGridView dataGridViewAlunos;
+        private System.Windows.Forms.Button btnLimparCampoAluno;
+        private System.Windows.Forms.Button btnAlterarAluno;
+        private System.Windows.Forms.Button btnExcluirAluno;
+        private System.Windows.Forms.Button btnIncluirAluno;
         private System.Windows.Forms.GroupBox gpbNav;
-        private System.Windows.Forms.Button btnUltimo;
-        private System.Windows.Forms.Button btnAnterior;
-        private System.Windows.Forms.Button btnProximo;
-        private System.Windows.Forms.Button btnPrimeiro;
-        private System.Windows.Forms.TextBox txbNome;
-        private System.Windows.Forms.Label lblCodDisciplina;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txbNomeAluno;
+        private System.Windows.Forms.Label lblCodAlunos;
         private System.Windows.Forms.Label lblCadSigla;
         private System.Windows.Forms.Label lblCadNome;
         private System.Windows.Forms.Label lblCadMatricula;
-        private System.Windows.Forms.DateTimePicker maskNasc;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -402,10 +389,11 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txbEndereco;
         private System.Windows.Forms.TextBox txbNumero;
-        private System.Windows.Forms.TextBox txtBairro;
+        private System.Windows.Forms.TextBox txbBairro;
         private System.Windows.Forms.TextBox txbCidade;
-        private System.Windows.Forms.TextBox txbCep;
-        private System.Windows.Forms.TextBox txbRg;
+        private System.Windows.Forms.TextBox txbCEP;
+        private System.Windows.Forms.TextBox txbRG;
         private System.Windows.Forms.TextBox txbTelefone;
+        private System.Windows.Forms.TextBox txbNasc;
     }
 }

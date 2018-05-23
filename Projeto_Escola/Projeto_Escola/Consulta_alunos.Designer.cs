@@ -112,7 +112,6 @@
             this.Name = "frmConsultaAlunos";
             this.Text = "Consulta de Alunos";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmConsultaAlunos_FormClosing);
-            this.Load += new System.EventHandler(this.frmConsultaAlunos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.datGridDisciplinas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

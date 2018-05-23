@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using System.Data.OleDb;
 
 namespace Projeto_Escola{
     public partial class frmOpcoes : Form{
@@ -89,7 +88,5 @@ namespace Projeto_Escola{
                 e.Cancel = true;
             }
         }
-
-        public string connectionString { get; set; }
     }
 }

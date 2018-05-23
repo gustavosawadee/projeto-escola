@@ -30,5 +30,26 @@ namespace Projeto_Escola
                 e.Cancel = true;
             }
         }
+
+        private void txbFiltro_TextChanged(object sender, EventArgs e)
+        {
+            string script = "SELECT * FROM disciplinas";
+            if (cbxFiltro.Text == "Sigla") 
+            {
+                script = "Select * from disciplinas where sigla like '" + txbFiltro.Text + "%'";
+            }
+            else if (cbxFiltro.Text == "disciplinas")
+            {
+                script = "Select * from disciplinas where disciplina like '" + txbFiltro.Text + "%'";
+            }
+            else if (cbxFiltro.Text == "Codigo da disciplina")
+            {
+                script = "Select * from disciplinas where id like '" + txbFiltro.Text + "%'";
+            }
+            else
+            { 
+                MessageBox.Show("escolha um campo para pesquisar! " +cbxFiltro.Focus());       
+            }
+        }
     }
 }

@@ -16,61 +16,61 @@ C:\Users\Aluno\documents\visual studio 2010\Projects\Projeto_Escola\Projeto_Esco
 C:\Users\Aluno\documents\visual studio 2010\Projects\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAnalitico.resources
 C:\Users\Aluno\documents\visual studio 2010\Projects\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAlunos.resources
 C:\Users\Aluno\documents\visual studio 2010\Projects\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioDisciplinas.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.exe
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.pdb
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\bin\Debug\Projeto_Escola.exe
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\bin\Debug\Projeto_Escola.pdb
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmCadAlunos.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmCadDisciplinas.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaAlunos.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaDisciplinas.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorDisciplinas.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorMencao.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorAluno.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmOpcoes.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.Properties.Resources.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmLancarNotaAluno.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAnalitico.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAlunos.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioDisciplinas.resources
-C:\Users\Aluno_2\Downloads\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.csproj.GenerateResource.Cache
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.exe
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.pdb
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\bin\Debug\Projeto_Escola.exe
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\bin\Debug\Projeto_Escola.pdb
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmCadAlunos.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmCadDisciplinas.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaAlunos.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaDisciplinas.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorDisciplinas.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorMencao.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorAluno.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmOpcoes.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.Properties.Resources.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmLancarNotaAluno.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAnalitico.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAlunos.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioDisciplinas.resources
-C:\Users\User\Downloads\Projeto_Escola-jose-renan-20180426T141559Z-001\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.csproj.GenerateResource.Cache
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.exe
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.pdb
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\bin\Debug\Projeto_Escola.exe
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\bin\Debug\Projeto_Escola.pdb
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmCadAlunos.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmCadDisciplinas.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaAlunos.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaDisciplinas.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorDisciplinas.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorMencao.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorAluno.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmOpcoes.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.Properties.Resources.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmLancarNotaAluno.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAnalitico.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAlunos.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioDisciplinas.resources
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Aluno\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\User\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.exe
-C:\Users\User\Downloads\projeto-escola-master\Projeto_Escola\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.pdb
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.exe
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.pdb
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\bin\Debug\Projeto_Escola.exe
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\bin\Debug\Projeto_Escola.pdb
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmCadAlunos.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmCadDisciplinas.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaAlunos.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaDisciplinas.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorDisciplinas.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorMencao.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorAluno.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmOpcoes.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.Properties.Resources.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmLancarNotaAluno.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAnalitico.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAlunos.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioDisciplinas.resources
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.csproj.GenerateResource.Cache
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.exe
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.pdb
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\bin\Debug\Projeto_Escola.exe
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\bin\Debug\Projeto_Escola.pdb
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmCadAlunos.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmCadDisciplinas.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaAlunos.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaDisciplinas.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorDisciplinas.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorMencao.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorAluno.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmOpcoes.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.Properties.Resources.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmLancarNotaAluno.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAnalitico.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAlunos.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioDisciplinas.resources
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\etec\3°_semestre\DS II\Projeto_Escola-jose-renan\Projeto_Escola\obj\x86\Debug\Projeto_Escola.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.exe
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.pdb
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\bin\Debug\Projeto_Escola.exe
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\bin\Debug\Projeto_Escola.pdb
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.csprojResolveAssemblyReference.cache
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmCadAlunos.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmCadDisciplinas.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaAlunos.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaDisciplinas.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorDisciplinas.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorMencao.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmConsultaPorAluno.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmOpcoes.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.Properties.Resources.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmLancarNotaAluno.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAnalitico.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioAlunos.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.frmRelatorioDisciplinas.resources
+C:\Users\Aluno\Downloads\Projeto_Escola\Projeto_Escola\obj\x86\Debug\Projeto_Escola.csproj.GenerateResource.Cache

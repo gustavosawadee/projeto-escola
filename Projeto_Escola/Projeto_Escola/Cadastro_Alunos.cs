@@ -6,19 +6,15 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using System.Data.OleDb;
-
+using System.Data.SqlClient;
 namespace Projeto_Escola
 {
-    public partial class frmCadAlunos : Form
-    {
-
-        static string strCn = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Aluno\\Downloads\\projeto-escola-master\\Projeto_Escola\\Projeto_Escola\\Projeto_Escola\\bin\\Debug\\Bd_Escola.accdb";
-        OleDbConnection conexao = new OleDbConnection(strCn);
-        public frmCadAlunos()
-        {
+    public partial class frmCadAlunos : Form{
+         private string conexaoBancoDados = "Persist Security Info=False;User ID=sa;Initial Catalog=BDEscola;Data Source=localhost;password=info211";
+        public frmCadAlunos(){
             InitializeComponent();
-        }
+            preechimento();
+            }
 
         private void frmCadAlunos_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -30,201 +26,141 @@ namespace Projeto_Escola
             }
         }
 
-        private void btnIncluir_Click(object sender, EventArgs e)
-        {
-            //instrução sql responsável por adicionar dados ao banco (CRUD - Create) 
-            string adiciona = "insert into Alunos values (" +
-            txbNome.Text + ",'" +
-            maskNasc.Text + "','" +
-            txbEndereco.Text + "','" +
-            txbNumero.Text + "','" +
-            txtBairro.Text + "','" +
-            txbCidade.Text + "','" +
-            txbCep.Text + "','" +
-            txbRg.Text + "','" +
-            txbTelefone.Text + "')";
+             private void preechimento() {
+            //define a instrução SQL
+            string script = "SELECT * FROM alunos";
 
-            //criando um objeto de nome cmd tendo como modelo a classe OleDbCommand para //executar a instrução sql 
-            OleDbCommand cmd = new OleDbCommand(adiciona, conexao);
+            SqlConnection SQLSERVER = new SqlConnection(conexaoBancoDados);
+            SQLSERVER.Open();
+            
+            SqlCommand comandoListar = new SqlCommand(script, SQLSERVER);
+            comandoListar.ExecuteNonQuery();
 
-            //tratamento de exceções: try - catch - finally (em caso de erro capturamos o //tipo do erro) 
-            try
-            {
-                // Abrindo a conexão com o banco 
-                conexao.Open();
+            SqlDataAdapter TABELA = new SqlDataAdapter();
+            TABELA.SelectCommand = comandoListar;
 
-                // Criando uma variável para adicionar e armazenar o resultado 
-                int resultado;
-                resultado = cmd.ExecuteNonQuery();
+            DataSet tabelaVisualStudio = new DataSet();
+            TABELA.Fill(tabelaVisualStudio);
 
-                // Verificando se o registro foi adicionado 
-                // Caso o valor da variável resultado seja 1 
-                // significa que o comando funcionou, neste caso limpar os campos e exibir uma //mensagem 
-                if (resultado == 1)
-                {
-                    MessageBox.Show("Registro adicionado com sucesso");
-                    txbNome.Clear();
-                    txbEndereco.Clear();
-                    txbNumero.Clear();
-                    txtBairro.Clear();
-                    txbCidade.Clear();
-                    txbCep.Clear();
-                    txbRg.Clear();
-                    txbTelefone.Clear();
-                    txbNome.Focus();
-                }
+            dataGridViewAlunos.DataSource = tabelaVisualStudio;
+            dataGridViewAlunos.DataMember = tabelaVisualStudio.Tables[0].TableName;
 
-                // Encerrando o uso do cmd 
-                cmd.Dispose();
-            }
-
-            //caso ocorra algum erro 
-            catch (Exception ex)
-            {
-
-                //exiba qual é o erro 
-                MessageBox.Show(ex.Message);
-            }
-
-            // de qualquer forma sempre fechar a conexão com o banco ("lembrar da porta da //geladeira rsrsrs") 
-            finally
-            {
-                conexao.Close();
-            } 
+            SQLSERVER.Close();
         }
 
-        private void btnExcluir_Click(object sender, EventArgs e)
-        {
-            //instrução sql responsável por remover um registro do banco (CRUD - Delete) 
-            System.Convert.ToInt32(lblCodDisciplina.Text);
-            string remove = "delete from Alunos where Matricula  = " + lblCodDisciplina.Text;
+             private void btnIncluirAluno_Click(object sender, EventArgs e)
+             {
+                 SqlConnection SQLSERVER = new SqlConnection(conexaoBancoDados);
+                 SQLSERVER.Open();
+                 string script = "INSERT INTO alunos values ('" + txbNomeAluno.Text + "', '" + txbNasc.Text + "', '" + txbEndereco.Text + "', '" 
+                     + txbNumero.Text + "', '" + txbBairro.Text + "', '" + txbCidade.Text + "', '" + txbCEP.Text + "', '" + txbRG.Text + "', '" + txbTelefone.Text + "')";
+                 SqlCommand comandoIncluir = new SqlCommand(script, SQLSERVER);
+                 comandoIncluir.ExecuteNonQuery();
 
 
-            //criando um objeto de nome cmd tendo como modelo a classe OleDbCommand para //executar a instrução sql 
-            OleDbCommand cmd = new OleDbCommand(remove, conexao);
+                 SQLSERVER.Close();
+                 MessageBox.Show("Registro incluido com sucesso");
+                 txbNomeAluno.Clear();
+                 txbNasc.Clear();
+                 txbEndereco.Clear();
+                 txbNumero.Clear();
+                 txbBairro.Clear();
+                 txbCidade.Clear();
+                 txbCEP.Clear();
+                 txbRG.Clear();
+                 txbTelefone.Clear();
+                 txbNomeAluno.Focus();
+                 preechimento();
+             }
 
-            //tratamento de exceções: try - catch - finally (em caso de erro capturamos o //tipo do erro) 
-            try
-            {
+             private void btnLimparCampoAluno_Click(object sender, EventArgs e)
+             {
+                 txbNomeAluno.Clear();
+                 txbNasc.Clear();
+                 txbEndereco.Clear();
+                 txbNumero.Clear();
+                 txbBairro.Clear();
+                 txbCidade.Clear();
+                 txbCEP.Clear();
+                 txbRG.Clear();
+                 txbTelefone.Clear();
+             }
 
-                // Abrindo a conexão com o banco 
-                conexao.Open();
+             private void dataGridViewAlunos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+             {
+                 if (e.RowIndex >= 0)
+                 {
+                     DataGridViewRow row = dataGridViewAlunos.Rows[e.RowIndex];
 
-                // Criando uma variável para adicionar e armazenar o resultado 
-                int resultado;
-                if (MessageBox.Show("Tem certeza que deseja remover este registro ?", "Atenção", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                {
-                    resultado = cmd.ExecuteNonQuery();
-                    // Verificando se o registro foi apagado 
-                    // Caso o valor da variável resultado seja 1 
-                    // significa que o comando funcionou, neste caso limpar os campos e exibir uma //mensagem 
-                    if (resultado == 1)
-                    {
-                        txbNome.Clear();
-                        txbEndereco.Clear();
-                        txbNumero.Clear();
-                        txtBairro.Clear();
-                        txbCidade.Clear();
-                        txbCep.Clear();
-                        txbRg.Clear();
-                        txbTelefone.Clear();
-                        txbNome.Focus();
-                        MessageBox.Show("Registro removido com sucesso");
-                    }
-
-                    // Encerrando o uso do cmd 
-                    cmd.Dispose();
-                }
-            }
-
-            //caso ocorra algum erro 
-            catch (Exception ex)
-            {
-
-                //exiba qual é o erro 
-                MessageBox.Show(ex.Message);
-            }
-            // de qualquer forma sempre fechar a conexão com o banco 
-            finally
-            {
-                conexao.Close();
-            } 
-        }
-
-        private void btnAlterar_Click(object sender, EventArgs e)
-        {
-            //instrução sql responsável por alterar um registro do banco (CRUD - Update) 
-            string altera = "update Alunos set Matricula = '" + lblCodDisciplina.Text +
-            "', Nome = '" + txbNome.Text +
-            "', Nasc = '" + maskNasc.Text +
-            "', Endereco = '" + txbEndereco.Text +
-            "', Numero = '" + txbNumero.Text +
-            "', Bairro = '" + txtBairro.Text +
-            "', Cidade = '" + txbCidade.Text +
-            "', Cep = '" + txbCep.Text +
-            "', Rg = '" + txbRg.Text +
-            "', Telefone = '" + txbTelefone.Text +
-            "' where Matricula = " + lblCodDisciplina.Text;
+                     lblCodAlunos.Text = row.Cells["id"].Value.ToString();
+                     txbNomeAluno.Text = row.Cells["nome"].Value.ToString();
+                     txbNasc.Text = row.Cells["nascimento"].Value.ToString();
+                     txbEndereco.Text = row.Cells["endereco"].Value.ToString();
+                     txbNumero.Text = row.Cells["numero"].Value.ToString();
+                     txbBairro.Text = row.Cells["bairro"].Value.ToString();
+                     txbCidade.Text = row.Cells["cidade"].Value.ToString();
+                     txbCEP.Text = row.Cells["cep"].Value.ToString();
+                     txbRG.Text = row.Cells["rg"].Value.ToString();
+                     txbTelefone.Text = row.Cells["telefone"].Value.ToString();
 
 
-            //criando um objeto de nome cmd tendo como modelo a classe OleDbCommand para //executar a instrução sql 
-            OleDbCommand cmd = new OleDbCommand(altera, conexao);
+                 }
 
-            //tratamento de exceções: try - catch - finally (em caso de erro capturamos o //tipo do erro) 
-            try
-            {
-                // Abrindo a conexão com o banco 
-                conexao.Open();
+                 /*int index = e.RowIndex;
+                 DataGridViewRow row = dataGridViewDisciplinas.Rows[index];
 
-                // Criando uma variável para alterar e armazenar o resultado 
-                int resultado;
-                resultado = cmd.ExecuteNonQuery();
-                // Verificando se o registro foi alterado 
-                // Caso o valor da variável resultado seja 1 
-                // significa que o comando funcionou, neste caso limpar os campos e exibir uma //mensagem 
-                if (resultado == 1)
-                {
-                    txbNome.Clear();
-                    txbEndereco.Clear();
-                    txbNumero.Clear();
-                    txtBairro.Clear();
-                    txbCidade.Clear();
-                    txbCep.Clear();
-                    txbRg.Clear();
-                    txbTelefone.Clear();
-                    txbNome.Focus();
-                    MessageBox.Show("Registro Alterado com sucesso");
-                }
-                // Encerrando o uso do cmd 
-                cmd.Dispose();
-            }
+                 lblCadCod.Text = row.Cells["id"].Value.ToString();
+                 txbCadDesc.Text = row.Cells["disciplina"].Value.ToString();
+                 txbCadSigla.Text = row.Cells["sigla"].Value.ToString();*/
+             }
 
-            //caso ocorra algum erro 
-            catch (Exception ex)
-            {
+             private void btnExcluirAluno_Click(object sender, EventArgs e)
+             {
+                 SqlConnection SQLSERVER = new SqlConnection(conexaoBancoDados);
+                 SQLSERVER.Open();
+                 string script = "DELETE from alunos where id = '" + lblCodAlunos.Text + "'";
+                 SqlCommand comandoExcluir = new SqlCommand(script, SQLSERVER);
+                 comandoExcluir.ExecuteNonQuery();
 
-                //exiba qual é o erro 
-                MessageBox.Show(ex.Message);
-            }
 
-            // De qualquer forma sempre fechar a conexão com o banco 
-            finally
-            {
-                conexao.Close();
-            } 
-        }
+                 SQLSERVER.Close();
+                 MessageBox.Show("Registro excluido com sucesso");
+                 txbNomeAluno.Clear();
+                 txbNasc.Clear();
+                 txbEndereco.Clear();
+                 txbNumero.Clear();
+                 txbBairro.Clear();
+                 txbCidade.Clear();
+                 txbCEP.Clear();
+                 txbRG.Clear();
+                 txbTelefone.Clear();
+                 txbNomeAluno.Focus();
+                 preechimento();
+             }
 
-        private void btnLimpar_Click(object sender, EventArgs e)
-        {
-            txbNome.Clear();
-            txbEndereco.Clear();
-            txbNumero.Clear();
-            txtBairro.Clear();
-            txbCidade.Clear();
-            txbCep.Clear();
-            txbRg.Clear();
-            txbTelefone.Clear();
-            txbNome.Focus();
-        }
+             private void btnAlterarAluno_Click(object sender, EventArgs e)
+             {
+                 SqlConnection SQLSERVER = new SqlConnection(conexaoBancoDados);
+                 SQLSERVER.Open();
+                 string script = "UPDATE alunos SET nome = '" + txbNomeAluno.Text + "' nascimento = '" + txbNasc.Text + "' endereco = '" + txbEndereco.Text + "' numero '" + txbNumero.Text +
+                      "' bairro '" + txbNumero.Text + "' cidade '" + txbCidade.Text + "' cep '" + txbCEP.Text + "' rg '" + txbRG.Text + "' telefone '" + txbTelefone.Text + "' where id = '" + lblCodAlunos.Text + "'";
+                 SqlCommand comandoExcluir = new SqlCommand(script, SQLSERVER);
+                 comandoExcluir.ExecuteNonQuery();
+
+
+                 SQLSERVER.Close();
+                 MessageBox.Show("Registro alterado com sucesso");
+                 txbNomeAluno.Clear();
+                 txbNasc.Clear();
+                 txbEndereco.Clear();
+                 txbNumero.Clear();
+                 txbBairro.Clear();
+                 txbCidade.Clear();
+                 txbCEP.Clear();
+                 txbRG.Clear();
+                 txbTelefone.Clear();
+                 txbNomeAluno.Focus();
+                 preechimento();
+             }
     }
 }

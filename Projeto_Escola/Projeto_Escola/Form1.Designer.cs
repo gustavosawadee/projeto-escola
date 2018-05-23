@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOpcoes));
             this.mstripOpcoes = new System.Windows.Forms.MenuStrip();
             this.mstripCadastros = new System.Windows.Forms.ToolStripMenuItem();
             this.mstripCadDisciplina = new System.Windows.Forms.ToolStripMenuItem();
@@ -57,7 +58,7 @@
             this.mstripRelatorios});
             this.mstripOpcoes.Location = new System.Drawing.Point(0, 0);
             this.mstripOpcoes.Name = "mstripOpcoes";
-            this.mstripOpcoes.Size = new System.Drawing.Size(870, 24);
+            this.mstripOpcoes.Size = new System.Drawing.Size(962, 24);
             this.mstripOpcoes.TabIndex = 1;
             this.mstripOpcoes.Text = "menuStrip1";
             // 
@@ -73,14 +74,14 @@
             // mstripCadDisciplina
             // 
             this.mstripCadDisciplina.Name = "mstripCadDisciplina";
-            this.mstripCadDisciplina.Size = new System.Drawing.Size(152, 22);
+            this.mstripCadDisciplina.Size = new System.Drawing.Size(130, 22);
             this.mstripCadDisciplina.Text = "Disciplinas";
             this.mstripCadDisciplina.Click += new System.EventHandler(this.mstripCadDisciplina_Click);
             // 
             // mstripCadAlunos
             // 
             this.mstripCadAlunos.Name = "mstripCadAlunos";
-            this.mstripCadAlunos.Size = new System.Drawing.Size(152, 22);
+            this.mstripCadAlunos.Size = new System.Drawing.Size(130, 22);
             this.mstripCadAlunos.Text = "Alunos";
             this.mstripCadAlunos.Click += new System.EventHandler(this.mstripCadAlunos_Click);
             // 
@@ -99,35 +100,35 @@
             // mstripConsDisciplinas
             // 
             this.mstripConsDisciplinas.Name = "mstripConsDisciplinas";
-            this.mstripConsDisciplinas.Size = new System.Drawing.Size(152, 22);
+            this.mstripConsDisciplinas.Size = new System.Drawing.Size(151, 22);
             this.mstripConsDisciplinas.Text = "Disciplinas";
             this.mstripConsDisciplinas.Click += new System.EventHandler(this.mstripConsDisciplinas_Click);
             // 
             // mstripConsAlunos
             // 
             this.mstripConsAlunos.Name = "mstripConsAlunos";
-            this.mstripConsAlunos.Size = new System.Drawing.Size(152, 22);
+            this.mstripConsAlunos.Size = new System.Drawing.Size(151, 22);
             this.mstripConsAlunos.Text = "Alunos";
             this.mstripConsAlunos.Click += new System.EventHandler(this.mstripConsAlunos_Click);
             // 
             // mstripConsPorDisciplicas
             // 
             this.mstripConsPorDisciplicas.Name = "mstripConsPorDisciplicas";
-            this.mstripConsPorDisciplicas.Size = new System.Drawing.Size(152, 22);
+            this.mstripConsPorDisciplicas.Size = new System.Drawing.Size(151, 22);
             this.mstripConsPorDisciplicas.Text = "Por Disciplinas";
             this.mstripConsPorDisciplicas.Click += new System.EventHandler(this.mstripConsPorDisciplicas_Click);
             // 
             // mstripConsPorAlunos
             // 
             this.mstripConsPorAlunos.Name = "mstripConsPorAlunos";
-            this.mstripConsPorAlunos.Size = new System.Drawing.Size(152, 22);
+            this.mstripConsPorAlunos.Size = new System.Drawing.Size(151, 22);
             this.mstripConsPorAlunos.Text = "Por Alunos";
             this.mstripConsPorAlunos.Click += new System.EventHandler(this.mstripConsPorAlunos_Click);
             // 
             // mstripConsPorMencao
             // 
             this.mstripConsPorMencao.Name = "mstripConsPorMencao";
-            this.mstripConsPorMencao.Size = new System.Drawing.Size(152, 22);
+            this.mstripConsPorMencao.Size = new System.Drawing.Size(151, 22);
             this.mstripConsPorMencao.Text = "Por Menção";
             this.mstripConsPorMencao.Click += new System.EventHandler(this.mstripConsPorMencao_Click);
             // 
@@ -142,7 +143,7 @@
             // mstripLancarNota
             // 
             this.mstripLancarNota.Name = "mstripLancarNota";
-            this.mstripLancarNota.Size = new System.Drawing.Size(152, 22);
+            this.mstripLancarNota.Size = new System.Drawing.Size(111, 22);
             this.mstripLancarNota.Text = "Alunos";
             this.mstripLancarNota.Click += new System.EventHandler(this.mstripLancarNota_Click);
             // 
@@ -179,9 +180,10 @@
             // 
             // statusStrip1
             // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 470);
+            this.statusStrip1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("statusStrip1.BackgroundImage")));
+            this.statusStrip1.Location = new System.Drawing.Point(0, 514);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(870, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(962, 22);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -189,7 +191,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(870, 492);
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(962, 536);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.mstripOpcoes);
             this.IsMdiContainer = true;
@@ -224,8 +229,6 @@
         private System.Windows.Forms.ToolStripMenuItem mstripRelatorioAlunos;
         private System.Windows.Forms.ToolStripMenuItem mstripRelatorioAnalitico;
         private System.Windows.Forms.StatusStrip statusStrip1;
-
-        public System.EventHandler frmOpcoes_Load { get; set; }
     }
 }
 

@@ -25,10 +25,5 @@ namespace Projeto_Escola
                 e.Cancel = true;
             }
         }
-
-        private void frmConsultaAlunos_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
