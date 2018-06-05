@@ -1,0 +1,38 @@
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\ProjetoEscola.exe
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\ProjetoEscola.pdb
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.csprojResolveAssemblyReference.cache
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.formMenuDeOpcoes.resources
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.FrmCadastroDisciplinas.resources
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmCadastroAlunos.resources
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.Properties.Resources.resources
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.csproj.GenerateResource.Cache
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.exe
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.pdb
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmConsultaCadastralDeAlunos.resources
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmConsultaCadastroDeDisciplinas.resources
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmConsultaPorDisciplinas.resources
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmConsultaPorAluno.resources
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmConsultaPorMencao.resources
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmRegistrarMencoesAosAlunos.resources
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmRelatorioCadastralDeAlunos.resources
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmRelatorioCadastralDeDisciplinas.resources
+G:\ETEC Zona Leste\3º Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmRelatoriosAnaliticos.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.exe
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.pdb
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\ProjetoEscola.exe
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\bin\Debug\ProjetoEscola.pdb
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.csprojResolveAssemblyReference.cache
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmConsultaCadastralDeAlunos.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.formMenuDeOpcoes.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmRelatorioCadastralDeAlunos.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmRelatoriosAnaliticos.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.FrmCadastroDisciplinas.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmCadastroAlunos.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmConsultaCadastroDeDisciplinas.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmConsultaPorDisciplinas.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmConsultaPorAluno.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmConsultaPorMencao.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmRegistrarMencoesAosAlunos.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.frmRelatorioCadastralDeDisciplinas.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.Properties.Resources.resources
+G:\ETEC_Zona_Leste\3_Semestre\Desenvolvimento de Software 2 - c#\Projeto de C Sharp\ProjetoEscola\ProjetoEscola\ProjetoEscola\obj\x86\Debug\ProjetoEscola.csproj.GenerateResource.Cache
